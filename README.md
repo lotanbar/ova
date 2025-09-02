@@ -25,6 +25,8 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
+**Note:** Due to Expo Router's requirements, route files must be in `/app` while reusable components live in `/comps`. Route files in `/app` often just import and re-export components from `/comps`.
+
 ## Get a fresh project
 
 When you're ready, run:
