@@ -13,12 +13,12 @@ export default function ImportImage() {
     });
 
     if (!result.canceled) {
-      setUriAndNavigate(result.assets[0].uri);
+      setUriAndNavigate(result.assets[0].uri, 'import');
     }
   };
 
   return (
-    <TouchableOpacity className='button' onPress={pickImage}>
+    <TouchableOpacity className="button" onPress={pickImage}>
       <Text>Import Image</Text>
     </TouchableOpacity>
   );

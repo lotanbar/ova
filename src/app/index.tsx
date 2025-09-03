@@ -1,3 +1,3 @@
-import PreviewPage from '../pages/PreviewPage';
+import HomePage from '../pages/HomePage';
 
-export default PreviewPage;
+export default HomePage;

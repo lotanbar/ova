@@ -5,7 +5,8 @@
   "scripts": {
     "go": "expo start",
     "usb": "expo start --android --localhost",
-    "test": "eslint --fix . && prettier --write ."
+    "test": "eslint --fix . && prettier --write .",
+    "prepare": "husky"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -14,6 +15,7 @@
     "@react-navigation/native": "^7.1.6",
     "expo": "~53.0.22",
     "expo-blur": "~14.1.5",
+    "expo-camera": "~16.1.11",
     "expo-constants": "~17.1.7",
     "expo-font": "~13.3.2",
     "expo-haptics": "~14.1.4",
@@ -26,7 +28,6 @@
     "expo-symbols": "~0.4.5",
     "expo-system-ui": "~5.0.11",
     "expo-web-browser": "~14.2.0",
-    "husky": "^9.1.7",
     "nativewind": "^4.1.23",
     "prettier": "^3.6.2",
     "react": "19.0.0",
@@ -45,6 +46,7 @@
     "eslint": "^9.25.0",
     "eslint-config-expo": "~9.2.0",
     "eslint-plugin-import": "^2.32.0",
+    "husky": "^9.1.7",
     "prettier-plugin-tailwindcss": "0.5.11",
     "tailwindcss": "3.4.17",
     "typescript": "~5.8.3"
