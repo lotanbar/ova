@@ -1,5 +1,3 @@
-// Expo Router requires route files to be in /app directory
-// This is just a wrapper that renders the actual Preview component from /comps
-import Preview from '../comps/Preview';
+import PreviewPage from '../pages/PreviewPage';
 
-export default Preview;
+export default PreviewPage;

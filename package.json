@@ -3,7 +3,8 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
+    "go": "expo start",
+    "usb": "expo start --android --localhost",
     "test": "eslint --fix . && prettier --write ."
   },
   "dependencies": {

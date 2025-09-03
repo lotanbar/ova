@@ -1,11 +1,11 @@
 import * as ImagePicker from 'expo-image-picker';
 import { TouchableOpacity, Text } from 'react-native';
 
-import { useImageContext } from '@/src/ImageContext';
+import { useImageContext } from '@/src/context and utils/ImageContext';
 
 export default function ImportImage() {
-  const { setUriAndNavigate } = useImageContext()
-  
+  const { setUriAndNavigate } = useImageContext();
+
   const pickImage = async () => {
     // No permissions request is necessary for launching the image library
     let result = await ImagePicker.launchImageLibraryAsync({
@@ -18,7 +18,7 @@ export default function ImportImage() {
   };
 
   return (
-    <TouchableOpacity onPress={pickImage}>
+    <TouchableOpacity className='button' onPress={pickImage}>
       <Text>Import Image</Text>
     </TouchableOpacity>
   );

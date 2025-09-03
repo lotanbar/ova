@@ -1,5 +1,8 @@
+import '../global.css';
 import { Stack } from 'expo-router';
-import { ImageProvider } from '../ImageContext'
+import { View } from 'react-native'
+
+import { ImageProvider } from '../context and utils/ImageContext';
 
 export default function RootLayout() {
   return (
